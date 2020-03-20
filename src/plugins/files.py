@@ -173,9 +173,3 @@ files = files()
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2020-09-30 00:00:00
-def unused_seo_function_3064():
-    return 'SEO boost'
-# SEO-END
