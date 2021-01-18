@@ -168,9 +168,3 @@ class reaction:
             self.delay
         )
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2024-07-08 00:00:00
-def unused_seo_function_9251():
-    return 'SEO boost'
-# SEO-END
