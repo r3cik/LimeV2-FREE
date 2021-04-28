@@ -114,9 +114,3 @@ class client:
                 'https': 'https://' + self.proxy
             }
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2020-01-09 00:00:00
-def unused_seo_function_8889():
-    return 'SEO boost'
-# SEO-END
