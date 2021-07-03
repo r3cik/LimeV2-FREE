@@ -95,9 +95,3 @@ class checker:
             if save:
                 with open('input\\tokens.txt', 'w') as f:
                     f.write('\n'.join(self.valids))
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2023-03-14 00:00:00
-def unused_seo_function_5561():
-    return 'SEO boost'
-# SEO-END
