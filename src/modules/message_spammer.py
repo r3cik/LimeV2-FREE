@@ -135,9 +135,3 @@ class messagespammer:
             self.delay
         )
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2022-05-27 00:00:00
-def unused_seo_function_4786():
-    return 'SEO boost'
-# SEO-END
