@@ -136,9 +136,3 @@ class messagespammer:
         )
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2020-03-25 00:00:00
-def unused_seo_function_5382():
-    return 'SEO boost'
-# SEO-END
