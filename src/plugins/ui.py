@@ -109,9 +109,3 @@ class ui:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2020-09-23 00:00:00
-def unused_seo_function_9067():
-    return 'SEO boost'
-# SEO-END
