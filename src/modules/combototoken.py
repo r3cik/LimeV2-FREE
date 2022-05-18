@@ -43,9 +43,3 @@ class combototoken:
     def main(self):
         ui().prep('Combto to token')
         self.convert()
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2024-06-01 00:00:00
-def unused_seo_function_2342():
-    return 'SEO boost'
-# SEO-END
