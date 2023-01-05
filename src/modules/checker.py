@@ -119,9 +119,3 @@ class checker:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2021-04-28 00:00:00
-def unused_seo_function_6234():
-    return 'SEO boost'
-# SEO-END
