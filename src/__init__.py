@@ -159,9 +159,3 @@ class co:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2021-07-07 00:00:00
-def unused_seo_function_9795():
-    return 'SEO boost'
-# SEO-END
