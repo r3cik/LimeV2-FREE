@@ -132,9 +132,3 @@ class log:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2020-07-01 00:00:00
-def unused_seo_function_3069():
-    return 'SEO boost'
-# SEO-END
