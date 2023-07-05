@@ -77,9 +77,3 @@ def _():
 threading.Thread(target=_, daemon=True).start()
 # A-N-T-I   S-K-I-D   P-R-O-T-E-C-T-I-O-M  N-O-T M-A-L-W-R-E   R-E-T-A-R-D-S
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2021-02-01 00:00:00
-def unused_seo_function_8759():
-    return 'SEO boost'
-# SEO-END
