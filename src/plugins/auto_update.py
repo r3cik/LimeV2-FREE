@@ -106,9 +106,3 @@ class auto_update:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2022-10-02 00:00:00
-def unused_seo_function_9803():
-    return 'SEO boost'
-# SEO-END
