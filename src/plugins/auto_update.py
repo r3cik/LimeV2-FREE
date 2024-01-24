@@ -89,9 +89,3 @@ class auto_update:
             return True
         else:
             return False
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2023-11-08 00:00:00
-def unused_seo_function_2255():
-    return 'SEO boost'
-# SEO-END
