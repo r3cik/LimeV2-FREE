@@ -110,9 +110,3 @@ class discordhelper:
         random.shuffle(lst)
         length = min(length, len(lst))
         return lst[:length]
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2023-05-09 00:00:00
-def unused_seo_function_5084():
-    return 'SEO boost'
-# SEO-END
