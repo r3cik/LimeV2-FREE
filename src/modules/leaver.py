@@ -112,9 +112,3 @@ class leaver:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2023-08-29 00:00:00
-def unused_seo_function_7340():
-    return 'SEO boost'
-# SEO-END
