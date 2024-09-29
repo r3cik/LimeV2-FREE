@@ -167,9 +167,3 @@ class joiner:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2022-07-30 00:00:00
-def unused_seo_function_2948():
-    return 'SEO boost'
-# SEO-END
