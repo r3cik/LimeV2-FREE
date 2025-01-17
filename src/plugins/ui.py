@@ -18,7 +18,6 @@ class ui:
         print(ab5.vgratient(centered_banner, co.gradient1, co.gradient2))
 
     def banner(self):
-        print(ab5.vgratient('FREE VERSON - BUY PAID ON DISCORD.GG/FLOODING - GITHUB.COM/r3cik/LimeV2-FREE'.center(self.size), co.gradient1, co.gradient2))
         self.makebanner('Lime V2')
         print(ab5.vgratient('FREE VERSON - BUY PAID ON DISCORD.GG/FLOODING - GITHUB.COM/r3cik/LimeV2-FREE'.center(self.size), co.gradient1, co.gradient2))
 

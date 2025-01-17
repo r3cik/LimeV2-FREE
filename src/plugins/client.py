@@ -18,9 +18,9 @@ class prep:
 
         self.headers = {}
         log.info('Client', f'Getting user-agent and xsuper')
-        r = requests.get('https://raw.githubusercontent.com/realr3ci/headers/refs/heads/main/headers.json').json()
-        self.xsup = r['x-super-properties']
-        self.ua = r['user-agent']
+        r = requests.get('https://raw.githubusercontent.com/r3cik/discord-api/refs/heads/main/latest.json').json()
+        self.xsup = r['X-Super-Properties']
+        self.ua = r['User-Agent']
         log.info('Client', f'Got user-agent >> {self.ua[:5]}... and xsuper >> {self.xsup[:5]}...')
         self.reffrer = 'https://discord.com/channels/@me'
         log.info('Client', f'Refferer >> {self.reffrer}')
