@@ -51,8 +51,7 @@ class auto_update:
             return False
 
     def auto_update(self):
-        return
-        #if self.check():
-        #    return True
-        #else:
-        #    return False
+        if self.check():
+            return True
+        else:
+            return False
