@@ -1,0 +1,10 @@
+uuid
+ab5
+datetime
+colorama
+requests
+tls-client
+beautifulsoup4
+typing-extensions
+typing
+pyfiglet
