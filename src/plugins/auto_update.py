@@ -4,44 +4,49 @@ from src.plugins.files import *
 
 class auto_update:
     def __init__(self):
-        self.current = VERSION
-        log.info('Auto update', f'Current version >> {self.current}')
-        r = requests.get('https://github.com/r3cik/LimeV2-FREE/releases/latest')
-        soup = BeautifulSoup(r.content, 'html.parser')
-        self.newest = soup.find('span', {'class': 'css-truncate-target'}).text.strip()
+        try:
+            self.current = VERSION
+            log.info('Auto update', f'Current version >> {self.current}')
+            r = requests.get('https://github.com/r3cik/LimeV2-FREE/releases/latest')
+            soup = BeautifulSoup(r.content, 'html.parser')
+            self.newest = soup.find('span', {'class': 'css-truncate-target'}).text.strip()
 
-        log.info('Auto update', f'Newest version >> {self.current}')
+            log.info('Auto update', f'Newest version >> {self.current}')
 
-        if self.check():
-            log.info('Auto update', 'Update available')
-            self.currentdir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'LimeV2-latest-' + str(self.newest)))
-            if not os.path.exists(self.currentdir):
-                os.mkdir(self.currentdir)  
-                
-                r = requests.get(f'https://github.com/r3cik/LimeV2-FREE/archive/refs/tags/{self.newest}.zip')
-                zip_file = BytesIO(r.content)
-                with zipfile.ZipFile(zip_file, 'r') as zip_ref:
-                    zip_ref.extractall(self.currentdir)
+            if self.check():
+                log.info('Auto update', 'Update available')
+                self.currentdir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'LimeV2-latest-' + str(self.newest)))
+                if not os.path.exists(self.currentdir):
+                    os.mkdir(self.currentdir)  
+                    
+                    r = requests.get(f'https://github.com/r3cik/LimeV2-FREE/archive/refs/tags/{self.newest}.zip')
+                    zip_file = BytesIO(r.content)
+                    with zipfile.ZipFile(zip_file, 'r') as zip_ref:
+                        zip_ref.extractall(self.currentdir)
 
-                try:
-                    with open(f'{self.currentdir}\\input\\tokens.txt', 'w') as f:
-                        f.write(files().gettokens())
+                    try:
+                        with open(f'{self.currentdir}\\input\\tokens.txt', 'w') as f:
+                            f.write(files().gettokens())
 
-                    with open(f'{self.currentdir}\\input\\proxies.txt', 'w') as f:
-                        f.write(files().getproxies())
+                        with open(f'{self.currentdir}\\input\\proxies.txt', 'w') as f:
+                            f.write(files().getproxies())
 
-                    with open(f'{self.currentdir}\\settings.json', 'w') as f:
-                        with open('settings.json', 'r') as f2:
-                            f.write(json.load(f2))
-                except:
-                    pass
+                        with open(f'{self.currentdir}\\settings.json', 'w') as f:
+                            with open('settings.json', 'r') as f2:
+                                f.write(json.load(f2))
+                    except:
+                        pass
 
-                os.startfile(self.currentdir)
-                messagebox.showinfo('Info', f'Auto updated lime! Updated script can be found on {self.currentdir}\nTokens, proxies, etc are auto converted!')
-                exit()
+                    os.startfile(self.currentdir)
+                    messagebox.showinfo('Info', f'Auto updated lime! Updated script can be found on {self.currentdir}\nTokens, proxies, etc are auto converted!')
+                    exit()
 
-        else:
-            log.info('Auto update', 'No update available')
+            else:
+                log.info('Auto update', 'No update available')
+
+        except:
+            log.error('Auto update', 'Failed to check for updates! (continuing in 5s)')
+            time.sleep(5)
 
 
     def check(self):

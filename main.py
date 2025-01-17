@@ -4,14 +4,16 @@ from src.plugins.files import *
 from src.plugins.error_chandler import *
 from src.plugins.log import *
 from src.plugins.ui import *
+from src.plugins.auto_update import *
 
 ui().cls()
 ui().title('discord.gg/flooding')
 ui().banner()
 log.info('Main', 'Startring up!')
 
-stop = False
+auto_update().auto_update()
 
+stop = False
 if not files.getproxies() and files.getproxystatus():
     log.info('Main', 'Proxies ware enabled inside of settings.json but none are inside of input\\proxies.txt the code will not work properly please input proxies or disable proxies in settings.json')
     stop = True

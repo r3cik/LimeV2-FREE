@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "C:\Users\admin\github\LimeV2-FREE\LimeV2VENV\Lib\site-packages\requests\models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 4 (char 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\github\LimeV2-FREE\main.py", line 36, in <module>
+    from src.modules.joiner import *
+  File "C:\Users\admin\github\LimeV2-FREE\src\modules\joiner.py", line 4, in <module>
+    from src.dchelper import *
+  File "C:\Users\admin\github\LimeV2-FREE\src\dchelper.py", line 3, in <module>
+    from src.plugins.client import *
+  File "C:\Users\admin\github\LimeV2-FREE\src\plugins\client.py", line 72, in <module>
+    prep = prep()
+           ^^^^^^
+  File "C:\Users\admin\github\LimeV2-FREE\src\plugins\client.py", line 21, in __init__
+    r = requests.get('https://raw.githubusercontent.com/realr3ci/headers/refs/heads/main/headers.json').json()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\github\LimeV2-FREE\LimeV2VENV\Lib\site-packages\requests\models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Extra data: line 1 column 4 (char 3)
