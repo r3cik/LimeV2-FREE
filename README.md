@@ -26,5 +26,5 @@
 </p>
 
 <p align="center">
-  <img src="https://repobeats.axiom.co/api/embed/5d569521b6445eaa259dfc62ae081c0be3d595ca.svg">
+  <img src="https://repobeats.axiom.co/api/embed/7232d447ed6dde455115c8267fbc4a0282736ca7.svg">
 </p>
