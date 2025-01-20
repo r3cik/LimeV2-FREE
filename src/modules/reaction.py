@@ -104,14 +104,14 @@ class reaction:
         messages = discordhelper().get_messages(self.channelid, files.gettokens())
         for message in messages:
             if message['id'] == self.messageid:
+                if not message['reactions']:
+                    log.info('Reaction', 'No reactions found')
+                    return
+                
                 for reaction in message['reactions']:
                     emoji_name = reaction['emoji']['name']
                     count = reaction['count']
                     reacts.append((emoji_name, count))
-        
-        if not reacts:
-            log.info('Reaction', 'No reactions found')
-            return
 
         mn = []
         for _, (reactionname, count) in enumerate(reacts, 1):
