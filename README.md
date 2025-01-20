@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="https://star-history.com/#r3cik/LimeV2-FREE&Date&theme=dark">
-    <img src="https://api.star-history.com/svg?repos=r3cik/LimeV2-FREE&type=Date&theme=dark">
-  </a>
+  <picture>
+   <img src="https://api.star-history.com/svg?repos=r3cik/LimeV2-FREE&type=Timeline&theme=dark">
+  </picture>
 </p>
 
 <p align="center">
