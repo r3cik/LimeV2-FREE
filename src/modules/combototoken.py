@@ -73,9 +73,3 @@ class combototoken:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2025-02-01 13:08:22
-def unused_seo_function_3180():
-    return 'SEO boost'
-# SEO-END
