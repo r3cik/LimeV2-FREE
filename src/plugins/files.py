@@ -149,10 +149,3 @@ class files:
             setts = json.load(f)['onlinetokens (BETTER BYPASS)']
         return setts
 files = files()
-# Lime-V2 auto-generated code 1738752614.372107
-def dummy_614():
-    print('LimeV2 temporary function')
-
-# Lime-V2 auto-generated code 1738752614.540296
-def dummy_614():
-    print('LimeV2 temporary function')
