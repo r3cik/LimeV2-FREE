@@ -1,3 +1,24 @@
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+
+# Lime V2 - Official Project
+# Copyright (C) 2025 R3CI
+#
+# This program is licensed under the GNU General Public License v3.0 (GPL-3.0).
+# Unauthorized redistribution, modification, or use of this code without explicit
+# permission from the owner is strictly prohibited.
+#
+# Official Links:
+# Telegram: t.me/limev2
+# Discord: discord.gg/flooding
+#
+# Any unauthorized use may result in takedown requests against violating repositories
+# or videos using this code without permission.
+
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 from src import *
 
 class log:

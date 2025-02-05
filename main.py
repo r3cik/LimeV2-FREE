@@ -82,6 +82,8 @@ while True:
         '25': log.premium_only,
         '26': log.premium_only,
         '27': log.premium_only,
+        '28': log.premium_only,
+        '29': log.premium_only,
         '30': combototoken().main,
     }
 

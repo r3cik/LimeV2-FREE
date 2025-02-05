@@ -1,3 +1,24 @@
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+
+# Lime V2 - Official Project
+# Copyright (C) 2025 R3CI
+#
+# This program is licensed under the GNU General Public License v3.0 (GPL-3.0).
+# Unauthorized redistribution, modification, or use of this code without explicit
+# permission from the owner is strictly prohibited.
+#
+# Official Links:
+# Telegram: t.me/limev2
+# Discord: discord.gg/flooding
+#
+# Any unauthorized use may result in takedown requests against violating repositories
+# or videos using this code without permission.
+
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 from src import *
 from src.plugins.log import *
 from src.plugins.ui import *
@@ -102,20 +123,25 @@ class reaction:
 
         reacts = []
         messages = discordhelper().get_messages(self.channelid, files.gettokens())
-        for message in messages:
-            if message['id'] == self.messageid:
-                if not message['reactions']:
-                    log.info('Reaction', 'No reactions found')
-                    return
-                
-                for reaction in message['reactions']:
-                    emoji_name = reaction['emoji']['name']
-                    count = reaction['count']
-                    reacts.append((emoji_name, count))
+        try:
+            for message in messages:
+                if message['id'] == self.messageid:
+                    if not message['reactions']:
+                        log.info('Reaction', 'No reactions found')
+                        return
+                    
+                    for reaction in message['reactions']:
+                        emoji_name = reaction['emoji']['name']
+                        count = reaction['count']
+                        reacts.append((emoji_name, count))
 
-        mn = []
-        for _, (reactionname, count) in enumerate(reacts, 1):
-            mn.append(f'{reactionname} - {count}')
+            mn = []
+            for _, (reactionname, count) in enumerate(reacts, 1):
+                mn.append(f'{reactionname} - {count}')
+        except Exception as e:
+            log.error('Reaction', f'Failed to get reactions, none on the message? >> {e}')
+            return
+
 
         ui().make_menu(mn)
         selected = int(ui().ask('Choice')) - 1

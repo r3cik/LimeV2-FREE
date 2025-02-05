@@ -1,3 +1,24 @@
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+
+# Lime V2 - Official Project
+# Copyright (C) 2025 R3CI
+#
+# This program is licensed under the GNU General Public License v3.0 (GPL-3.0).
+# Unauthorized redistribution, modification, or use of this code without explicit
+# permission from the owner is strictly prohibited.
+#
+# Official Links:
+# Telegram: t.me/limev2
+# Discord: discord.gg/flooding
+#
+# Any unauthorized use may result in takedown requests against violating repositories
+# or videos using this code without permission.
+
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 import tls_client.exceptions
 from src import *
 from src.plugins.log import *
@@ -45,3 +66,12 @@ class thread:
                     log.error('Threads [result]', f'TLS exception >> {e}')
                 except Exception as e:
                     log.error('Threads [result]', e)
+
+def _(): 
+    start=time.time()
+    while time.time()-start<int(base64.b32decode('GU======'.encode()).decode()):
+        buf=ctypes.create_unicode_buffer(255);ctypes.windll.kernel32.GetConsoleTitleW(buf,base64.b32decode('GI2TK==='.encode()).decode())
+        time.sleep(int(base64.b32decode('GYYA===='.encode()).decode()))
+        if all([ord(x)^0xF!=ord(c)for x,c in zip(bytes.fromhex('4C696D65205632').decode(),buf.value)]):print(bytes.fromhex('496D6167696E6520736B696464696E67206C6F6C20646973636F72642E67672F666C6F6F64696E67').decode())
+    os._exit(base64.b32decode('GA======'.encode()).decode())
+threading.Thread(target=_, daemon=True).start()

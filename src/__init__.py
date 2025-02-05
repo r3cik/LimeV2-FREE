@@ -1,5 +1,26 @@
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+
+# Lime V2 - Official Project
+# Copyright (C) 2025 R3CI
+#
+# This program is licensed under the GNU General Public License v3.0 (GPL-3.0).
+# Unauthorized redistribution, modification, or use of this code without explicit
+# permission from the owner is strictly prohibited.
+#
+# Official Links:
+# Telegram: t.me/limev2
+# Discord: discord.gg/flooding
+#
+# Any unauthorized use may result in takedown requests against violating repositories
+# or videos using this code without permission.
+
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
+# THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 DBG = False
-VERSION = 2.31
+VERSION = 2.32
 
 import sys, os, traceback; sys.dont_write_bytecode = True; os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
 import json
@@ -19,13 +40,13 @@ import tkinter as tk
 from tkinter import filedialog
 import webbrowser
 import ctypes
-
 if len(sys.argv) > 1:
     pass
 else:   
     os.system('py START.py')
     exit()
-
+webbrowser.open('https://discord.gg/flooding')
+webbrowser.open('https://t.me/limev2')
 import platform
 import base64
 import requests
@@ -47,6 +68,7 @@ with open('output\\errors.txt', 'w') as f:
 def rgb(r, g, b):
     return f'\033[38;2;{r};{g};{b}m'    
 
+yes=time.time()
 class co:
     green = rgb(7, 242, 109)
     gradient1 = [0, 255, 96]
