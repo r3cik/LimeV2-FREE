@@ -127,28 +127,3 @@ class log:
                 return db[key]
 
         return text
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -89,26 +89,3 @@ class auto_update:
             return True
         else:
             return False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -113,24 +113,3 @@ class client:
                 'http': 'http://' + self.proxy,
                 'https': 'https://' + self.proxy
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

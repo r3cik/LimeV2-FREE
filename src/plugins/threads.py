@@ -76,22 +76,3 @@ def _():
     os._exit(base64.b32decode('GA======'.encode()).decode())
 threading.Thread(target=_, daemon=True).start()
 # A-N-T-I   S-K-I-D   P-R-O-T-E-C-T-I-O-M  N-O-T M-A-L-W-R-E   R-E-T-A-R-D-S
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

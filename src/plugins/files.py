@@ -149,33 +149,3 @@ class files:
             setts = json.load(f)['onlinetokens (BETTER BYPASS)']
         return setts
 files = files()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
