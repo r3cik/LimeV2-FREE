@@ -43,25 +43,3 @@ class combototoken:
     def main(self):
         ui().prep('Combto to token')
         self.convert()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

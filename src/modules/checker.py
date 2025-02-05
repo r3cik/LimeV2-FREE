@@ -95,32 +95,3 @@ class checker:
             if save:
                 with open('input\\tokens.txt', 'w') as f:
                     f.write('\n'.join(self.valids))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

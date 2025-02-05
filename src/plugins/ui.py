@@ -100,24 +100,3 @@ class ui:
             print(f'{indx} >> {opt}{S.RESET_ALL}')
 
         print('\n')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

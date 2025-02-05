@@ -110,25 +110,3 @@ class discordhelper:
         random.shuffle(lst)
         length = min(length, len(lst))
         return lst[:length]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
