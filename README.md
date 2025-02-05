@@ -51,5 +51,87 @@ Lime V2 raid tool
 Lime V2 raider
 Lime V2 discord
 Lime V2 TOOL
+Lime V2
+Lime
+R3CI
+R3CI Discord
+R3CI Bot
+Lime Discord Bot
+Discord Bot
+Discord Automation
+Discord Tools
+Discord Customization
+Discord Integration
+Discord API
+Discord Webhooks
+Discord Features
+Discord Management
+Lime V2 Bot
+Lime V2 Discord
+R3CI Tools for Discord
+R3CI Bot Discord
+R3CI Automation Tools
+Lime Discord Automation
+Discord Bot by R3CI
+_r3ci_ Discord Bot
+r3cik Bot
+R3CI Development
+Discord Bot Framework
+Custom Discord Bots
+Lime V2 Features
+Discord Server Management Bot
+Discord Bot Webhooks
+R3CI Discord Custom Tools
+Discord Bot by R3CI
+Lime Bot Code
+Discord Bot Codebase
+Lime V2 GitHub Repository
+R3CI GitHub
+Lime V2 GitHub Project
+Discord Automation with Lime V2
+Advanced Discord Bot Features
+Lime Bot Customization
+R3CI Webhooks for Discord
+Discord Bot Tools
+Lime Discord Webhooks
+Discord Bot Commands
+Lime V2 Commands
+R3CI Bot Features
+Lime Bot Framework
+Custom Discord Commands
+Discord Bot Customization
+Lime V2 Customization
+R3CI GitHub Repository
+Lime V2 Updates
+Lime V2 Discord API Integration
+R3CI Projects
+R3CI Bot Updates
+Lime V2 GitHub Code
+Lime V2 for Discord Servers
+Lime V2 for Discord Automation
+Discord Server Bot
+Discord Automation Bot
+Lime V2 Features for Discord
+R3CI Discord Tools
+Discord Bot Webhooks Code
+Lime V2 GitHub Features
+Lime V2 for Discord Communities
+Lime V2 Discord Development
+R3CI Discord Bot Repository
+Discord Bot Webhooks Management
+Lime V2 for Discord Bot Automation
+R3CI Discord Bot Code
+Lime V2 Discord Server Management
+Lime V2 Discord Tools and Features
+Discord Bot with Lime V2
+R3CI Discord Development
+Discord Bot Automation with Lime V2
+Lime V2 Open Source
+R3CI GitHub Codebase
+Lime V2 GitHub Features for Discord
+Lime V2 Custom Discord Bot
+R3CI Discord Automation Features
+Lime V2 for Discord Development
+Lime V2
 Lime v2 tool
 flooding
