@@ -114,9 +114,3 @@ class isinserver:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2025-02-05 13:55:50
-def unused_seo_function_1739():
-    return 'SEO boost'
-# SEO-END
