@@ -113,9 +113,3 @@ class co:
     white = rgb(255, 255, 255)
     black = rgb(77, 76, 76)
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2025-02-05 12:18:51
-def unused_seo_function_7798():
-    return 'SEO boost'
-# SEO-END
