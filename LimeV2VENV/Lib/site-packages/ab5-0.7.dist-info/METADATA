@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ab5
+Version: 0.7
+Summary: print ascii art with gratient colors
+Home-page: https://github.com/xxa2005/
+Author: Ab.5#3363
+License: UNKNOWN
+Keywords: color,python,colors,cool,gratient,fade,shadow
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UwU
+
+there is vertical and horizontal gratients you can use
+
+
+> vertical example:
+```py
+from ab5 import vgratient
+
+logo = '''
+   __  __         __  __
+  / / / /      __/ / / /
+ / / / / | /| / / / / / 
+/ /_/ /| |/ |/ / /_/ /  
+\____/ |__/|__/\____/   
+                        '''
+
+# color in decemal rgb [red,green,blue] (max 255 min 0)
+start_color=[0,223,50]
+end_color=[0,25,222]
+
+print(vgratient(logo,start_color,end_color))
+```
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/790977863847116830/980557615413219388/unknown.png">
+</p>
+
+
+
+> horizontal example:
+```py
+from ab5 import hgratient
+
+logo = '''
+   __  __         __  __
+  / / / /      __/ / / /
+ / / / / | /| / / / / / 
+/ /_/ /| |/ |/ / /_/ /  
+\____/ |__/|__/\____/   
+                        '''
+
+# color in decemal rgb [red,green,blue] (max 255 min 0)
+start_color=[0,223,50]
+end_color=[0,25,222]
+
+print(hgratient(logo,start_color,end_color))
+```
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/790977863847116830/982396318515339284/unknown.png">
+</p>
+
