@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 /LimeV2VENV
 test.py
+SEO.py
