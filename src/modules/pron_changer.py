@@ -103,9 +103,3 @@ class pronchanger:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2025-02-05 12:53:35
-def unused_seo_function_1975():
-    return 'SEO boost'
-# SEO-END
