@@ -175,9 +175,3 @@ class reaction:
 
 
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2025-02-05 12:42:47
-def unused_seo_function_2015():
-    return 'SEO boost'
-# SEO-END
