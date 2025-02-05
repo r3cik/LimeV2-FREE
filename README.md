@@ -2,6 +2,11 @@
   EVERY 10 STARS ⭐ 1 LIME PAID GETS GIVEN AWAY
 </p>
 
+<h1 align="center" style="font-size: 50px;">
+  THIS IS THE ONLY REAL GITHUB REPOSITORY 
+  <a href="https://github.com/r3cik/LimeV2-FREE">CLICK ME</a>
+</h1>
+
 
 <p align="center">
   <img src="https://i.imgur.com/ZEaWqeW.png" width="125" height="125">
@@ -33,6 +38,12 @@
 <p align="center">
   <img src="https://repobeats.axiom.co/api/embed/7232d447ed6dde455115c8267fbc4a0282736ca7.svg">
 </p>
+
+<h1 align="center" style="font-size: 50px;">
+  THIS IS THE ONLY REAL GITHUB REPOSITORY 
+  <a href="https://github.com/r3cik/LimeV2-FREE">CLICK ME</a>
+</h1>
+
 
 # To be the first resoult on search 🙏
 Lime V2 
