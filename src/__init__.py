@@ -20,7 +20,7 @@
 # THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 # THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 DBG = False
-VERSION = 2.32
+VERSION = 2.33
 
 import sys, os, traceback; sys.dont_write_bytecode = True; os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
 import json
