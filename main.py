@@ -7,7 +7,7 @@ from src.plugins.ui import *
 from src.plugins.auto_update import *
 
 ui().cls()
-ui().title('discord.gg/flooding')
+ui().title(DISCORDINVITE)
 ui().banner()
 log.info('Main', 'Startring up!')
 
@@ -45,7 +45,7 @@ from src.modules.combototoken import *
 
 while True:
     ui().cls()
-    ui().title('discord.gg/flooding')
+    ui().title(DISCORDINVITE)
     ui().banner()
     ui().stats()
     ui().menu()
