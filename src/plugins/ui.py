@@ -11,7 +11,7 @@
 #
 # Official Links:
 # Telegram: t.me/limev2
-# Discord: discord.gg/flooding
+# Discord: discord.gg/spamming
 #
 # Any unauthorized use may result in takedown requests against violating repositories
 # or videos using this code without permission.
@@ -40,7 +40,7 @@ class ui:
 
     def banner(self):
         self.makebanner('Lime V2')
-        print(ab5.vgratient('FREE VERSON - BUY PAID ON DISCORD.GG/FLOODING - GITHUB.COM/r3cik/LimeV2-FREE'.center(self.size), co.gradient1, co.gradient2))
+        print(ab5.vgratient('FREE VERSON - BUY PAID ON DISCORD.GG/SPAMMING - GITHUB.COM/r3cik/LimeV2-FREE - GETLIME.XYZ'.center(self.size), co.gradient1, co.gradient2))
 
     def stats(self):
         stats = f'Tokens {len(files.gettokens())}  |  {len(files.getproxies())} Proxies'.center(self.size)
@@ -74,7 +74,7 @@ class ui:
         os.system('cls')
     
     def title(self, x):
-        os.system(f'title Lime V2 FREE - github.com/r3cik/LimeV2-FREE - {x}')
+        os.system(f'title Lime V2 FREE - github.com/r3cik/LimeV2-FREE - GETLIME.XYZ - {x}')
 
     def prep(self, module):
         self.cls()

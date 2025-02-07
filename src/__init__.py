@@ -11,7 +11,7 @@
 #
 # Official Links:
 # Telegram: t.me/limev2
-# Discord: discord.gg/flooding
+# Discord: discord.gg/spamming
 #
 # Any unauthorized use may result in takedown requests against violating repositories
 # or videos using this code without permission.
@@ -58,6 +58,14 @@ import ab5
 from bs4 import BeautifulSoup
 from io import BytesIO
 import zipfile
+
+invreq = requests.get(
+    'https://raw.githubusercontent.com/r3cik/LimeV2-resources/refs/heads/main/invite.json'
+)
+
+DISCORDINVITE = invreq.text.get('INVITE', 'discord.gg/spamming')
+URLDISCORDINVITE = invreq.text.get('URLINVITE', 'discord.gg/spamming')
+
 
 if not os.path.exists('output'):
     os.makedirs('output')

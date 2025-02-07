@@ -11,7 +11,7 @@
 #
 # Official Links:
 # Telegram: t.me/limev2
-# Discord: discord.gg/flooding
+# Discord: discord.gg/spamming
 #
 # Any unauthorized use may result in takedown requests against violating repositories
 # or videos using this code without permission.
@@ -24,13 +24,24 @@ from src.plugins.log import *
 from src.plugins.files import *
 
 class prep:
-    # THIS IS ONLY THE BASE FOR CLIENT INFO NO FULL CLIENT BUILDER IN FREE SKIDDIES
-    # THIS IS ONLY THE BASE FOR CLIENT INFO NO FULL CLIENT BUILDER IN FREE SKIDDIES
-    # THIS IS ONLY THE BASE FOR CLIENT INFO NO FULL CLIENT BUILDER IN FREE SKIDDIES
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
+    # BASIC CLIENT FOR FREE BUY LIME V2 PAID TO GET THE FULL WAY BETTER BYPASSING ONE #FUCKSKIDS
 
     def __init__(self):
         log.info('Client', f'Getting client info...')
-        self.identifier = 'chrome_120'
+        self.identifier = 'chrome_131'
         log.info('Client', f'Getting client info...')
         self.sess = tls_client.Session(
             client_identifier=self.identifier,
@@ -40,8 +51,8 @@ class prep:
         self.headers = {}
         log.info('Client', f'Getting user-agent and xsuper')
         r = requests.get('https://raw.githubusercontent.com/r3cik/discord-api/refs/heads/main/latest.json').json()
-        self.xsup = r['X-Super-Properties']
-        self.ua = r['User-Agent']
+        self.xsup = r['chrome133-duckduckgo']['X-Super-Properties']
+        self.ua = r['chrome133-duckduckgo']['User-Agent']
         log.info('Client', f'Got user-agent >> {self.ua[:5]}... and xsuper >> {self.xsup[:5]}...')
         self.reffrer = 'https://discord.com/channels/@me'
         log.info('Client', f'Refferer >> {self.reffrer}')
@@ -77,7 +88,7 @@ class prep:
             'Origin': 'https://discord.com',
             'Referer': self.reffrer,
             'Priority': 'u=1, i',
-            'Sec-Ch-Ua': '"Not;A=Brand";v="24", "Chromium";v="128"',
+            'Sec-Ch-Ua': '"Not;A=Brand";v="24", "Chromium";v="131"',
             'Sec-Ch-Ua-Mobile': '?0',
             'Sec-Ch-Ua-Platform': '"Windows"',
             'Sec-Fetch-Dest': 'empty',

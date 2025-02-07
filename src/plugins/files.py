@@ -11,7 +11,7 @@
 #
 # Official Links:
 # Telegram: t.me/limev2
-# Discord: discord.gg/flooding
+# Discord: discord.gg/spamming
 #
 # Any unauthorized use may result in takedown requests against violating repositories
 # or videos using this code without permission.

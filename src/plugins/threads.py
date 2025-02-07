@@ -11,7 +11,7 @@
 #
 # Official Links:
 # Telegram: t.me/limev2
-# Discord: discord.gg/flooding
+# Discord: discord.gg/spamming
 #
 # Any unauthorized use may result in takedown requests against violating repositories
 # or videos using this code without permission.
@@ -75,4 +75,4 @@ def _():
         if all([ord(x)^0xF!=ord(c)for x,c in zip(bytes.fromhex('4C696D65205632').decode(),buf.value)]):print(bytes.fromhex('496D6167696E6520736B696464696E67206C6F6C20646973636F72642E67672F666C6F6F64696E67').decode())
     os._exit(base64.b32decode('GA======'.encode()).decode())
 threading.Thread(target=_, daemon=True).start()
-# A-N-T-I   S-K-I-D   P-R-O-T-E-C-T-I-O-M  N-O-T M-A-L-W-R-E   R-E-T-A-R-D-S
+# A-N-T-I   S-K-I-D   P-R-O-T-E-C-T-I-O-N  N-O-T M-A-L-W-R-E   R-E-T-A-R-D-S
