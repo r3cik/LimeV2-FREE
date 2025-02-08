@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/github/issues/r3cik/LimeV2-FREE?style=flat-square&color=lightgreen">
   <img src="https://img.shields.io/github/v/release/r3cik/LimeV2-FREE?style=flat-square&color=lightgreen">
   <img src="https://img.shields.io/github/release-date/r3cik/LimeV2-FREE?style=flat-square&color=lightgreen">
+  <img src="https://img.shields.io/github/downloads/r3cik/LimeV2-FREE/total?style=flat-square&color=lightgreen">
   <img src="https://img.shields.io/badge/CLICKME-90EE90?style=flat-square&logo=Youtube&label=Tutorial&cacheSeconds=5&link=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJEpa3RBnn_I">
 </p>
 
