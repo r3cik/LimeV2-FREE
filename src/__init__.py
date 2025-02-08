@@ -59,26 +59,11 @@ from bs4 import BeautifulSoup
 from io import BytesIO
 import zipfile
 
-invreq = requests.get(
-    'https://raw.githubusercontent.com/r3cik/LimeV2-resources/refs/heads/main/invite.json'
-).json()
-
-DISCORDINVITE = invreq.get('INVITE', 'discord.gg/spamming')
-URLDISCORDINVITE = invreq.get('URLINVITE', 'discord.gg/spamming')
-
-
 if not os.path.exists('output'):
     os.makedirs('output')
 
 with open('output\\errors.txt', 'w') as f:
     f.write('')
-
-invreq = requests.get(
-    'https://raw.githubusercontent.com/r3cik/LimeV2-resources/refs/heads/main/invite.json'
-)
-
-DISCORDINVITE = invreq.text.get('INVITE', 'discord.gg/spamming')
-URLDISCORDINVITE = invreq.text.get('URLINVITE', 'discord.gg/spamming')
 
 def rgb(r, g, b):
     return f'\033[38;2;{r};{g};{b}m'    
@@ -127,3 +112,10 @@ class co:
 
     white = rgb(255, 255, 255)
     black = rgb(77, 76, 76)
+
+invreq = requests.get(
+    'https://raw.githubusercontent.com/r3cik/LimeV2-resources/refs/heads/main/invite.json'
+).json()
+
+DISCORDINVITE = invreq.get('INVITE', 'discord.gg/spamming')
+URLDISCORDINVITE = invreq.get('URLINVITE', 'discord.gg/spamming')
