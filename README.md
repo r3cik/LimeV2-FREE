@@ -1,7 +1,3 @@
-<h1 align="center" style="font-size: 50px;">
-  EVERY 10 STARS ⭐ 1 LIME PAID GETS GIVEN AWAY
-</p>
-
 <p align="center">
   <img src="https://i.imgur.com/ZEaWqeW.png" width="125" height="125">
 </p>
