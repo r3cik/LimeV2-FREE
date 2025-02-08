@@ -40,7 +40,7 @@ if not files.getproxies() and files.getproxystatus():
     stop = True
 
 if not files.gettokens():
-    log.info('Main', 'U did not input any tokens into input\\tokens.txt please input them in! (NOT DISCORD BOT TOKENS ACTUAL ACCOUNT TOKENS)')
+    log.info('Main', 'U did not input any tokens into input\\tokens.txt please input them in!')
     stop = True
 
 if files.getsolverstatus():

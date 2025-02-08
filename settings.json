@@ -3,7 +3,7 @@
     "advanced-mode": false,
     "threads": 15,
     "proxies": false,
-    "onlinetokens (BETTER BYPASS)": true,
+    "onlinetokens (BETTER BYPASS)": false,
     "usesolver": false,
     "solvertype (can use: razorcap)": "",
     "solverapikey": "",
