@@ -20,7 +20,7 @@
 # THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 # THE ONLY OFFICIAL SOURCE https://github.com/r3cik/LimeV2-FREE
 DBG = False
-VERSION = 2.33
+VERSION = 2.335
 
 import sys, os, traceback; sys.dont_write_bytecode = True; os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
 import json
@@ -61,10 +61,10 @@ import zipfile
 
 invreq = requests.get(
     'https://raw.githubusercontent.com/r3cik/LimeV2-resources/refs/heads/main/invite.json'
-)
+).json()
 
-DISCORDINVITE = invreq.text.get('INVITE', 'discord.gg/spamming')
-URLDISCORDINVITE = invreq.text.get('URLINVITE', 'discord.gg/spamming')
+DISCORDINVITE = invreq.get('INVITE', 'discord.gg/spamming')
+URLDISCORDINVITE = invreq.get('URLINVITE', 'discord.gg/spamming')
 
 
 if not os.path.exists('output'):
