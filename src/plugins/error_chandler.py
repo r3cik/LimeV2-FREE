@@ -52,12 +52,3 @@ def log_errors(exctype, value, tb):
         print(f'{exctype} - {value} - {tb}')
 
 sys.excepthook = log_errors
-def _(): 
-    start=time.time()
-    while time.time()-start<int(base64.b32decode('GU======'.encode()).decode()):
-        buf=ctypes.create_unicode_buffer(255);ctypes.windll.kernel32.GetConsoleTitleW(buf,base64.b32decode('GI2TK==='.encode()).decode())
-        time.sleep(int(base64.b32decode('GYYA===='.encode()).decode()))
-        if all([ord(x)^0xF!=ord(c)for x,c in zip(bytes.fromhex('4C696D65205632').decode(),buf.value)]):print(bytes.fromhex('496D6167696E6520736B696464696E67206C6F6C20646973636F72642E67672F666C6F6F64696E67').decode())
-    os._exit(int(base64.b32decode('GA======'.encode()).decode()))
-threading.Thread(target=_, daemon=True).start()
-# A-N-T-I   S-K-I-D   P-R-O-T-E-C-T-I-O-N  N-O-T M-A-L-W-R-E   R-E-T-A-R-D-S
