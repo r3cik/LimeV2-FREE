@@ -33,16 +33,20 @@ class reaction:
         self.channelid = None
         self.messageid = None
         self.reaction = None
+        self.reactionid = None
         self.dodebypass = False
+        self.iscustom = False
 
         self.delay = 0
+
+        self.url = None
 
     def bypass(self, token):
         cl = client(token)
         cl.headers['Authorization'] = token
 
         r = cl.sess.put(
-            f'https://discord.com/api/v9/channels/{self.channelid}/messages/{self.messageid}/reactions/{self.reaction}/@me?location=Message&type=0',
+            self.url,
             headers=cl.headers,
             cookies=cl.cookies
         )
@@ -78,7 +82,7 @@ class reaction:
         cl.headers['Authorization'] = token
 
         r = cl.sess.delete(
-            f'https://discord.com/api/v9/channels/{self.channelid}/messages/{self.messageid}/reactions/{self.reaction}/@me?location=Message&type=0',
+            self.url,
             headers=cl.headers,
             cookies=cl.cookies
         )
@@ -126,26 +130,37 @@ class reaction:
         try:
             for message in messages:
                 if message['id'] == self.messageid:
-                    if not message['reactions']:
-                        log.info('Reaction', 'No reactions found')
-                        return
-                    
                     for reaction in message['reactions']:
-                        emoji_name = reaction['emoji']['name']
-                        count = reaction['count']
-                        reacts.append((emoji_name, count))
+                        if not message['reactions']:
+                            log.info('Reaction', 'No reactions found')
+                            return
 
-            mn = []
-            for _, (reactionname, count) in enumerate(reacts, 1):
-                mn.append(f'{reactionname} - {count}')
+                        emoji_name = reaction['emoji']['name']
+                        emoji_id = reaction['emoji']['id']
+                        count = reaction['count']
+                        reacts.append((emoji_name, emoji_id, count))
+
         except Exception as e:
-            log.error('Reaction', f'Failed to get reactions, none on the message? >> {e}')
+            log.info('Reaction', f'No reactions found! ({e})')
+
+        if not reacts:
+            log.info('Reaction', 'No reactions found')
             return
 
+        mn = []
+        for _, (reactionname, emoji_id, count) in enumerate(reacts, 1):
+            mn.append(f'{reactionname} - {count}')
 
         ui().make_menu(mn)
         selected = int(ui().ask('Choice')) - 1
         self.reaction = reacts[selected][0]
+        self.reactionid = reacts[selected][1]
+        self.iscustom = self.reactionid is not None
+
+        if self.iscustom:
+            self.url = f'https://discord.com/api/v9/channels/{self.channelid}/messages/{self.messageid}/reactions/{self.reaction}:{self.reactionid}/@me'
+        else:
+            self.url = f'https://discord.com/api/v9/channels/{self.channelid}/messages/{self.messageid}/reactions/{self.reaction}/@me'
 
         if self.dodebypass:
             thread(
