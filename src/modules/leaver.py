@@ -93,9 +93,3 @@ class leaver:
             False,
             self.delay
         )
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2022-03-10 00:00:00
-def unused_seo_function_3340():
-    return 'SEO boost'
-# SEO-END
