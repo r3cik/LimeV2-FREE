@@ -149,9 +149,3 @@ class files:
             setts = json.load(f)['onlinetokens (BETTER BYPASS)']
         return setts
 files = files()
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2022-09-16 00:00:00
-def unused_seo_function_6972():
-    return 'SEO boost'
-# SEO-END
