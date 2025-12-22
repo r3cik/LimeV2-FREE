@@ -100,9 +100,3 @@ class ui:
             print(f'{indx} >> {opt}{S.RESET_ALL}')
 
         print('\n')
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2020-06-11 00:00:00
-def unused_seo_function_3334():
-    return 'SEO boost'
-# SEO-END
