@@ -101,9 +101,3 @@ class ui:
 
         print('\n')
 
-# SEO-START
-# Repo: https://github.com/r3cik/LimeV2-FREE
-# Date: 2024-06-14 00:00:00
-def unused_seo_function_9971():
-    return 'SEO boost'
-# SEO-END
